@@ -1,4 +1,4 @@
-# Educational Solution for TecHacks 2021 (Study Plan Generator & Tracker App)
+# Study Plan Generator & Tracker App
 
 ## Usage
 
