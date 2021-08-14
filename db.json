@@ -1,27 +1,27 @@
 {
   "exams": [
     {
-      "text": "Sample Exam 1",
-      "score": "90",
-      "diff": "50",
-      "day": "Aug 13th at 3:00pm",
+      "text": "Gen Chem I",
+      "score": "80",
+      "diff": "30",
+      "day": "Aug 17th at 2:30pm",
       "reminder": true,
       "id": 1
     },
     {
-      "text": "Sample Exam 2",
-      "score": "80",
+      "text": "Vector Calculus Midterm",
+      "score": "90",
       "diff": "40",
-      "day": "Aug 15th at 11:00am",
-      "reminder": "",
+      "day": "Aug 19th at 8:00am",
+      "reminder": true,
       "id": 2
     },
     {
-      "text": "Sample Exam 3",
-      "score": "90",
+      "text": "Discrete Math",
+      "score": "80",
       "diff": "20",
-      "day": "Aug 13th at 9:30am",
-      "reminder": true,
+      "day": "Aug 19th at 1pm",
+      "reminder": false,
       "id": 3
     }
   ]
