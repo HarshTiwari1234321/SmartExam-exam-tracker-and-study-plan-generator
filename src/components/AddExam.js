@@ -17,7 +17,7 @@ const AddExam = ({ onAdd }) => {
             alert('Successfully submitted')
         }
 
-        onAdd({ text, score, diff, day, reminder})
+        onAdd({ text, score, diff, day, reminder })
 
         setText('')
         setScore('')

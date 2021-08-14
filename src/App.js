@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import Exams from './components/Exams'
 import AddExam from './components/AddExam'
+import AddPlan from './components/AddPlan'
 import About from './components/About'
 
 const App = () => {
@@ -90,6 +91,7 @@ const App = () => {
         {exams.length > 0 ? <Exams exams={exams} 
         onDelete={deleteExam} 
         onToggle={toggleReminder} /> : 'No Upcoming Exam'}
+        <AddPlan />
         <Route path='/about' component={About} />
         <Footer />
       </div>
