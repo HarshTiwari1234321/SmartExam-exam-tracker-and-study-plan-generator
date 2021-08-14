@@ -91,7 +91,7 @@ const App = () => {
         {exams.length > 0 ? <Exams exams={exams} 
         onDelete={deleteExam} 
         onToggle={toggleReminder} /> : 'No Upcoming Exam'}
-        <AddPlan />
+        <AddPlan exams={exams} />
         <Route path='/about' component={About} />
         <Footer />
       </div>

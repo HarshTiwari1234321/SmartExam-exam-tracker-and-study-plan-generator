@@ -38,7 +38,7 @@ const AddExam = ({ onAdd }) => {
                 <label>Select Score Aim</label>
                 <select className='form-control-option' value={score}
                 onChange={(e) => setScore(e.target.value)}>
-                    <option value="" disabled selected>Select a Grade</option>
+                    <option value="" disabled defaultValue>Select a Grade</option>
                     <option value="90">A</option>
                     <option value="80">B</option>
                     <option value="70">C</option>
@@ -50,7 +50,7 @@ const AddExam = ({ onAdd }) => {
                 <label>Select Difficulty</label>
                 <select className='form-control-option' value={diff} 
                 onChange={(e) => setDiff(e.target.value)}>
-                    <option value="" disabled selected>Select a Level</option>
+                    <option value="" disabled defaultValue>Select a Level</option>
                     <option value="50">Super Hard</option>
                     <option value="40">Hard</option>
                     <option value="30">Moderate</option>
