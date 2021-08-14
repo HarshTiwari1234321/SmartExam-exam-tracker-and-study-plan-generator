@@ -1,4 +1,7 @@
 # Study Plan Generator & Tracker App
+```
+Solution for TecHacks 2021 | Theme: Education
+```
 
 ## Usage
 
