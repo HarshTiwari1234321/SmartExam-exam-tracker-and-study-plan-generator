@@ -10,6 +10,7 @@ const AddPlan = () => {
             alert('Please add how many days left to your exam week')
             return
         } else {
+            
             alert('Successfully generated your study plan')
         }
 
