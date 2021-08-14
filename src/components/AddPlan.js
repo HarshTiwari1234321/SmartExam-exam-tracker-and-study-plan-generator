@@ -60,7 +60,7 @@ const AddPlan = ({exams}) => {
         <>
         <form className='add-form' onSubmit={onSubmit}>
             <div className='form-control'>
-                <label>Days Left</label>
+                <label>Days to Exam Week</label>
                 <input type='text' placeholder='Example: 30' 
                 value={days} onChange={(e) => 
                 setDays(e.target.value)} />
