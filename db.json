@@ -1,0 +1,28 @@
+{
+  "exams": [
+    {
+      "text": "Sample Exam 1",
+      "score": "90",
+      "diff": "50",
+      "day": "Aug 13th at 3:00pm",
+      "reminder": true,
+      "id": 1
+    },
+    {
+      "text": "Sample Exam 2",
+      "score": "80",
+      "diff": "40",
+      "day": "Aug 15th at 11:00am",
+      "reminder": "",
+      "id": 2
+    },
+    {
+      "text": "Sample Exam 3",
+      "score": "90",
+      "diff": "20",
+      "day": "Aug 13th at 9:30am",
+      "reminder": true,
+      "id": 3
+    }
+  ]
+}
