@@ -26,7 +26,7 @@ const PrintResult = (results) => {
         <h2 align='center'>Recommended Study Plan</h2><br />
         {
             Object.keys(out).map((key,index) => (
-                <div className='task' key={index}>
+                <div className='exam' key={index}>
                     <h3>{key}</h3>
                     <p>recommend studying for {out[key]} days</p>
                 </div>

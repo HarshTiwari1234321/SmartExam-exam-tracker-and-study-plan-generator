@@ -11,7 +11,7 @@ const Header = ({ title, onAdd, showAdd }) => {
 }
 
 Header.defaultProps = {
-    title: "Study Plan Maker",
+    title: "SmartExam",
 }
 
 Header.propTypes = {
