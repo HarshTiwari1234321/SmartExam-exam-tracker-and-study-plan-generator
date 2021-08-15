@@ -1,4 +1,4 @@
-# SmartExam | Study Plan Generator & Tracker App
+# SmartExam | Exam Tracker & Study Plan Generator App
 ```
 Solution for TecHacks 2021 | Theme: Education
 ```
